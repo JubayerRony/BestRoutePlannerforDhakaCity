@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.test.bestrouteplannerfordhakacity.About"
+    android:background="@drawable/input"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/credit"
+        android:text="Credits"
+        android:textColor="#ffff99"
+        android:textAlignment="gravity"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/saqib"
+        android:layout_below="@+id/credit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Salimullah Saqib;  Roll-18"
+        android:textColor="#ffff99"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rony"
+        android:text="Jubayer Al Mahmud;  Roll-26"
+        android:textColor="#ffff99"
+        android:layout_below="@+id/saqib"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vodu"
+        android:layout_marginTop="42dp"
+        android:text="Abid Rahman;  Roll-60"
+        android:textColor="#ffff99"
+        android:layout_below="@+id/rony"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" />
+
+
+
+</RelativeLayout>

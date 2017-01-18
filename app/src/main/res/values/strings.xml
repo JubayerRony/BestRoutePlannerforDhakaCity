@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Best Route Planner for Dhaka City</string>
+
+    <string-array name="Location">
+
+        <item>Airport</item>
+        <item>Asad-gate</item>
+        <item>Azimpur</item>
+        <item>Badda</item>
+        <item>Farmgate</item>
+        <item>Gabtoli</item>
+        <item>Gulistan</item>
+        <item>Gulshan-1</item>
+        <item>Jatrabari</item>
+        <item>Kakoli</item>
+        <item>Kakrail</item>
+        <item>Kawranbazar</item>
+        <item>Kolyanpur</item>
+        <item>Kuril</item>
+        <item>Malibagh</item>
+        <item>Mirpur-1</item>
+        <item>Mirpur-10</item>
+        <item>Mogbazar</item>
+        <item>Mohakhali</item>
+        <item>Mohammadpur</item>
+        <item>Motijheel</item>
+        <item>Paltan</item>
+        <item>Panthapath</item>
+        <item>Rampura</item>
+        <item>Satrasta</item>
+        <item>Shahbag</item>
+        <item>Science-Lab</item>
+        <item>Tongi</item>
+        <item>Uttara</item>
+        <item>Zigatola</item>
+
+
+    </string-array>
+
+    <string-array name="Sort">
+
+        <item>Cost</item>
+        <item>Distance</item>
+        <item>Time</item>
+
+    </string-array>
+</resources>

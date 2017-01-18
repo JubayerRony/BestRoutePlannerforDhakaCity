@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.test.bestrouteplannerfordhakacity.Home"
+    android:background="@drawable/home"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Your Way"
+        android:id="@+id/findwayButton"
+        android:background="@drawable/button_style"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="189dp"
+        android:onClick="onClickFindWay"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:id="@+id/helpButton"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="82dp"
+        android:layout_alignTop="@+id/findwayButton"
+        android:layout_alignEnd="@+id/findwayButton"
+        android:layout_alignStart="@+id/findwayButton"
+        android:onClick="onClickHelp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:id="@+id/aboutButton"
+        android:background="@drawable/button_style"
+        android:layout_below="@+id/helpButton"
+        android:layout_alignStart="@+id/helpButton"
+        android:layout_marginTop="33dp"
+        android:layout_alignEnd="@+id/helpButton"
+        android:onClick="onClickAbout"/>
+</RelativeLayout>
